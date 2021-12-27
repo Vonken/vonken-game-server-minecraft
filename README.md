@@ -7,16 +7,16 @@
 ## Connect to server console ##
 https://github.com/Tiiffi/mcrcon/releases/latest
 
-## Copy files to docker container example ##
+### Copy files to docker container example ###
 ```
 docker cp "A:\VirtualMachines\Minecraft\data\plugins\Dynmap-3.3-beta-4-spigot.jar" minecraft:"/home/minecraft/plugins"
 ```
 
 
-## Notes ##
+### Notes ###
 rm -r data\plugins\dynmap\web\tiles/*
 
-## Disabled plugins ##
+### Disabled plugins ###
 ProtocolLib
 WorldGuard
 Movecraft 
