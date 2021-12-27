@@ -1,0 +1,68 @@
+general:
+  cars:
+    '# description': If enabled this will allow for drivable cars(Minecarts not on rails)
+    enable: true
+    defSpeed: 100.0
+    effectBlocks:
+      enable: true
+    turret: false
+    jumpAmount: 0.0
+    trafficLights:
+      enable: false
+      waitingBlock: []
+    hitBy:
+      enable: false
+      enableMonsterDamage: false
+      power: 5.0
+      damage: 1.5
+    roadBlocks:
+      enable: true
+      ids:
+      - NETHER_BRICK
+      - NETHER_BRICK_STAIRS
+    licenses:
+      enable: true
+    fuel:
+      enable: false
+      price: 2.0
+      cmdPerm: ucars.ucars
+      bypassPerm: ucars.bypassfuel
+      items:
+        enable: false
+        ids: []
+      sellFuel: true
+      check: []
+    placePerm:
+      enable: false
+      perm: ucars.place
+    health:
+      default: 10.0
+      max: 100.0
+      min: 5.0
+      overrideDefault: true
+      underwaterDamage: 0.0
+      lavaDamage: 100.0
+      punchDamage: 80.0
+      cactusDamage: 0.1
+      crashDamage: 0.0
+    forceRaceControlSystem: false
+    lowBoost: []
+    medBoost: []
+    highBoost: []
+    blockBoost: []
+    HighblockBoost: []
+    ResetblockBoost: []
+    jumpBlock: []
+    teleportBlock: []
+    barriers: []
+    speedMods: []
+  permissions:
+    enable: true
+misc:
+  configVersion: 1.1
+colorScheme:
+  success: '&a'
+  error: '&c'
+  info: '&e'
+  title: '&9'
+  tp: '&5'

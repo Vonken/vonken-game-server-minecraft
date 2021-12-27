@@ -1,0 +1,30 @@
+timestamps:
+  login: 1499283032133
+  logout: 1499285634026
+  lastteleport: 1499285630892
+ipAddress: 81.230.73.131
+lastlocation:
+  world: Destiny
+  x: -1524.8941644002452
+  y: 97.95186879143623
+  z: -1825.4103780594212
+  yaw: 223.20093
+  pitch: 17.506607
+logoutlocation:
+  world: Destiny
+  x: -866.6999999880791
+  y: 64.0
+  z: 5.637019616998874
+  yaw: 216.03874
+  pitch: 11.915782
+afk: false
+money: '9800351.0'
+godmode: true
+homes:
+  home:
+    world: Destiny
+    x: -862.4544209653375
+    y: 64.0
+    z: 2.337442278514679
+    yaw: 98.91235
+    pitch: 27.398

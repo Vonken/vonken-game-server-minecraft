@@ -1,0 +1,28 @@
+users:
+  Alduin:
+    group: Admin
+    subgroups: []
+    permissions: []
+  Fisnik:
+    group: Admin
+    subgroups: []
+    permissions: []
+  FTell92:
+    group: Owner
+    subgroups: []
+    permissions: []
+  MTell96:
+    group: Default
+    subgroups: []
+    permissions:
+    - ap.tp
+    - essentials.fly
+  Paula:
+    group: Default
+    subgroups: []
+    permissions:
+    - essentials.fly
+  Try:
+    group: Admin
+    subgroups: []
+    permissions: []

@@ -1,0 +1,55 @@
+airports:
+- HomeIsland
+- GardenIsland
+- Alduin
+- GlassAir
+- MIsland
+- Farland
+- Pulland
+Master: {}
+MasterHouse: {}
+HomeIsland:
+  world: Destiny
+  x: 274.50218287899673
+  y: 63.0
+  z: 208.47813517642916
+GardenIsland:
+  world: Destiny
+  x: -748.3812592882883
+  y: 65.0
+  z: -762.4919232785653
+Alduin:
+  world: Destiny
+  x: -1199.5
+  y: 63.69999998807907
+  z: -459.5887080203968
+GlassAir:
+  world: Destiny
+  x: -1187.4002551083624
+  y: 167.0
+  z: -216.10119937317484
+MathiasIsland:
+  world: Destiny
+  x: -1086.6018760379006
+  y: 64.0
+  z: -864.4215294961149
+MIsland:
+  world: Destiny
+  x: -1086.3163550834286
+  y: 64.0
+  z: -864.4701467821881
+FIslandDirt:
+  world: Destiny
+  x: -1931.6976143259783
+  y: 77.0
+  z: -1807.6136252973843
+Farland:
+  world: Destiny
+  x: -1931.3954825322437
+  y: 77.0
+  z: -1816.2226552090797
+Pulland:
+  world: Destiny
+  x: -1372.574912996479
+  y: 64.0
+  z: -816.9100445557498

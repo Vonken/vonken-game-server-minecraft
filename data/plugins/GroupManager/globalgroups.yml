@@ -1,0 +1,464 @@
+# These groups only contain permission nodes.
+#
+# **** You can NOT add anything other than permission nodes ****
+# **** This is NOT where you set up the groups which you give to users! ****
+# **** goto groupmanager/worlds/worldname/groups.yml if you want to set the actual groups! ****
+#
+# These collections are to be inherited in your different worlds groups.yml's
+# They can also be added as one of a users subgroups, but NOT as a primary group.
+# These collections are available to ALL group and user yml's.
+#
+# Add to and customize these groups to fit your needs.
+
+groups:
+
+# Permission nodes for GroupManager
+# by ElgarL, snowleo, continued from gabrielcouto's original
+# http://wiki.ess3.net
+  g:user_default:
+    permissions:
+    - essentials.help
+    - iLove.love
+    - iLove.target
+    - marry.default
+    - uplanes.fly
+    - ucars.cars
+    - -anticreeper.print
+    - craftbook.mech.door
+    - craftbook.mech.door.*
+    - essentials.ignore
+    - essentials.afk.auto
+    - bukkit.broadcast.user
+    - -bukkit.command.plugins
+    - essentials.tp
+    - essentials.fly
+    - essentials.msg
+    - essentials.motd
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.getpos
+    - essentials.depth
+    - essentials.balance
+    - essentials.pay
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.shout
+    - essentials.chat.question
+    - essentials.protect
+    - essentials.signs.use.*
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.help.iLove
+    - essentials.help.marry
+    - essentials.help.ucars
+    - essentials.help.ap
+    - essentials.help.Signshop
+    - bukkit.command.tell
+    - bukkit.command.kill
+    - bukkit.command.me
+    - bukkit.command.help
+
+  g:user_myblock:
+    permissions:
+    - myblock.list
+    - myblock.all
+    - myblock.public
+    - myblock.private
+    - myblock.addfriend
+    - myblock.delfriend
+    - myblock.clearfriends
+    - myblock.addguest
+    - myblock.delguest
+    - myblock.clearguest
+  
+  g:user_airplane:
+    permissions:
+    - ap.list
+    - ap.pilot
+    - ap.travel
+    - worldguard.locate
+
+  g:user_shop:
+    permissions:
+    - Signshop.Signs.* 
+    
+  g:user_shot:
+    permissions:
+    - crackshot.list
+    - crackshot.buy.all
+    - crackshot.use.all
+    - crackshot.get.all
+    
+  g:user_quests:
+    permissions:
+    - quests.quests
+    - quests.list
+    - quests.take
+    - quests.quit
+    - quests.stats
+    - quests.top
+    
+  g:admin_quests:
+    permissions:
+    - quests.editor.*
+    - quests.*
+
+  g:admin_airplane:
+    permissions:
+    - ap.mg
+    - ap.create
+    - ap.remove
+    - movecraft.Airship.pilot
+    - movecraft.Airship.move
+    - movecraft.Airship.rotate
+    - worldguard.fire-toggle.*
+
+  g:admin_admin:
+    permissions:
+    - essentials.gc
+    - essentials.exp
+    - essentials.exp.*
+    - essentials.tp
+    - essentials.tp.*
+    - essentials.fly
+    - essentials.fly.*
+    - essentials.time
+    - essentials.time.*
+    - essentials.weather
+    - essentials.weather.*
+    - essentials.bigtree
+    - essentials.delhome
+    - essentials.vanish
+    - Signshop.Admin.*
+    - Signshop.CopyPaste
+    - Signshop.Signs.*
+    - marry.admin
+    
+  g:admin_moderator:
+    permissions:
+    - essentials.ban
+    - essentials.heal
+    - essentials.burn
+    - essentials.spawn
+    - essentials.spawnmob
+
+  g:admin_jail:
+    permissions:
+    - essentials.togglejail
+    - essentials.setjail
+    - essentials.jails
+    - essentials.deljail
+    
+  g:admin_shot:
+    permissions:
+    - crackshot.list
+    - crackshot.buy.all
+    - crackshot.use.all
+    - crackshot.get.all
+    - crackshot.craft.all
+
+  g:owner_owner:
+    permissions:
+    - vanish.*
+    - essentials.*
+    - bukkit.*
+    - groupmanager.*
+    - ucars.*
+    - myblock.*
+    
+  g:admin_give:
+    permissions:
+    - essentials.give
+    - essentials.more
+    - essentials.item
+    - essentials.itemdb
+    - essentials.itemspawn.item-1
+    - essentials.itemspawn.item-2
+    - essentials.itemspawn.item-3
+    - essentials.itemspawn.item-4
+    - essentials.itemspawn.item-5
+    - essentials.itemspawn.item-6
+    - essentials.itemspawn.item-7
+    - essentials.itemspawn.item-8
+    - essentials.itemspawn.item-12
+    - essentials.itemspawn.item-13
+    - essentials.itemspawn.item-14
+    - essentials.itemspawn.item-15
+    - essentials.itemspawn.item-16
+    - essentials.itemspawn.item-17
+    - essentials.itemspawn.item-18
+    - essentials.itemspawn.item-19
+    - essentials.itemspawn.item-20
+    - essentials.itemspawn.item-21
+    - essentials.itemspawn.item-22
+    - essentials.itemspawn.item-23
+    - essentials.itemspawn.item-24
+    - essentials.itemspawn.item-25
+    - essentials.itemspawn.item-27
+    - essentials.itemspawn.item-28
+    - essentials.itemspawn.item-29
+    - essentials.itemspawn.item-30
+    - essentials.itemspawn.item-31
+    - essentials.itemspawn.item-32
+    - essentials.itemspawn.item-33
+    - essentials.itemspawn.item-34
+    - essentials.itemspawn.item-35
+    - essentials.itemspawn.item-37
+    - essentials.itemspawn.item-38
+    - essentials.itemspawn.item-39
+    - essentials.itemspawn.item-40
+    - essentials.itemspawn.item-41
+    - essentials.itemspawn.item-42
+    - essentials.itemspawn.item-43
+    - essentials.itemspawn.item-44
+    - essentials.itemspawn.item-45
+    - essentials.itemspawn.item-47
+    - essentials.itemspawn.item-48
+    - essentials.itemspawn.item-50
+    - essentials.itemspawn.item-51
+    - essentials.itemspawn.item-53
+    - essentials.itemspawn.item-54
+    - essentials.itemspawn.item-55
+    - essentials.itemspawn.item-58
+    - essentials.itemspawn.item-59
+    - essentials.itemspawn.item-60
+    - essentials.itemspawn.item-61
+    - essentials.itemspawn.item-62
+    - essentials.itemspawn.item-63
+    - essentials.itemspawn.item-64
+    - essentials.itemspawn.item-65
+    - essentials.itemspawn.item-66
+    - essentials.itemspawn.item-67
+    - essentials.itemspawn.item-68
+    - essentials.itemspawn.item-69
+    - essentials.itemspawn.item-70
+    - essentials.itemspawn.item-71
+    - essentials.itemspawn.item-72
+    - essentials.itemspawn.item-73
+    - essentials.itemspawn.item-74
+    - essentials.itemspawn.item-75
+    - essentials.itemspawn.item-76
+    - essentials.itemspawn.item-77
+    - essentials.itemspawn.item-78
+    - essentials.itemspawn.item-79
+    - essentials.itemspawn.item-81
+    - essentials.itemspawn.item-82
+    - essentials.itemspawn.item-83
+    - essentials.itemspawn.item-84
+    - essentials.itemspawn.item-85
+    - essentials.itemspawn.item-86
+    - essentials.itemspawn.item-91
+    - essentials.itemspawn.item-95
+    - essentials.itemspawn.item-96
+    - essentials.itemspawn.item-97
+    - essentials.itemspawn.item-98
+    - essentials.itemspawn.item-99
+    - essentials.itemspawn.item-100
+    - essentials.itemspawn.item-101
+    - essentials.itemspawn.item-102
+    - essentials.itemspawn.item-103
+    - essentials.itemspawn.item-104
+    - essentials.itemspawn.item-105
+    - essentials.itemspawn.item-106
+    - essentials.itemspawn.item-107
+    - essentials.itemspawn.item-108
+    - essentials.itemspawn.item-109
+    - essentials.itemspawn.item-110
+    - essentials.itemspawn.item-111
+    - essentials.itemspawn.item-116
+    - essentials.itemspawn.item-117
+    - essentials.itemspawn.item-118
+    - essentials.itemspawn.item-123
+    - essentials.itemspawn.item-124
+    - essentials.itemspawn.item-125
+    - essentials.itemspawn.item-126
+    - essentials.itemspawn.item-127
+    - essentials.itemspawn.item-128
+    - essentials.itemspawn.item-129
+    - essentials.itemspawn.item-131
+    - essentials.itemspawn.item-132
+    - essentials.itemspawn.item-133
+    - essentials.itemspawn.item-134
+    - essentials.itemspawn.item-135
+    - essentials.itemspawn.item-136
+    - essentials.itemspawn.item-137
+    - essentials.itemspawn.item-139
+    - essentials.itemspawn.item-140
+    - essentials.itemspawn.item-141
+    - essentials.itemspawn.item-142
+    - essentials.itemspawn.item-143
+    - essentials.itemspawn.item-144
+    - essentials.itemspawn.item-145
+    - essentials.itemspawn.item-146
+    - essentials.itemspawn.item-147
+    - essentials.itemspawn.item-148
+    - essentials.itemspawn.item-149
+    - essentials.itemspawn.item-150
+    - essentials.itemspawn.item-151
+    - essentials.itemspawn.item-152
+    - essentials.itemspawn.item-153
+    - essentials.itemspawn.item-154
+    - essentials.itemspawn.item-155
+    - essentials.itemspawn.item-156
+    - essentials.itemspawn.item-157
+    - essentials.itemspawn.item-158
+    - essentials.itemspawn.item-159
+    - essentials.itemspawn.item-160
+    - essentials.itemspawn.item-165
+    - essentials.itemspawn.item-170
+    - essentials.itemspawn.item-171
+    - essentials.itemspawn.item-172
+    - essentials.itemspawn.item-173
+    - essentials.itemspawn.item-174
+    - essentials.itemspawn.item-175
+    - essentials.itemspawn.item-256
+    - essentials.itemspawn.item-257
+    - essentials.itemspawn.item-258
+    - essentials.itemspawn.item-259
+    - essentials.itemspawn.item-260
+    - essentials.itemspawn.item-261
+    - essentials.itemspawn.item-262
+    - essentials.itemspawn.item-263
+    - essentials.itemspawn.item-265
+    - essentials.itemspawn.item-266
+    - essentials.itemspawn.item-267
+    - essentials.itemspawn.item-268
+    - essentials.itemspawn.item-269
+    - essentials.itemspawn.item-270
+    - essentials.itemspawn.item-271
+    - essentials.itemspawn.item-272
+    - essentials.itemspawn.item-273
+    - essentials.itemspawn.item-274
+    - essentials.itemspawn.item-275
+    - essentials.itemspawn.item-280
+    - essentials.itemspawn.item-281
+    - essentials.itemspawn.item-282
+    - essentials.itemspawn.item-283
+    - essentials.itemspawn.item-284
+    - essentials.itemspawn.item-285
+    - essentials.itemspawn.item-286
+    - essentials.itemspawn.item-287
+    - essentials.itemspawn.item-288
+    - essentials.itemspawn.item-289
+    - essentials.itemspawn.item-290
+    - essentials.itemspawn.item-290
+    - essentials.itemspawn.item-291
+    - essentials.itemspawn.item-292
+    - essentials.itemspawn.item-294
+    - essentials.itemspawn.item-295
+    - essentials.itemspawn.item-296
+    - essentials.itemspawn.item-297
+    - essentials.itemspawn.item-298
+    - essentials.itemspawn.item-299
+    - essentials.itemspawn.item-300
+    - essentials.itemspawn.item-301
+    - essentials.itemspawn.item-302
+    - essentials.itemspawn.item-303
+    - essentials.itemspawn.item-304
+    - essentials.itemspawn.item-305
+    - essentials.itemspawn.item-306
+    - essentials.itemspawn.item-307
+    - essentials.itemspawn.item-308
+    - essentials.itemspawn.item-309
+    - essentials.itemspawn.item-314
+    - essentials.itemspawn.item-315
+    - essentials.itemspawn.item-316
+    - essentials.itemspawn.item-317
+    - essentials.itemspawn.item-318
+    - essentials.itemspawn.item-319
+    - essentials.itemspawn.item-320
+    - essentials.itemspawn.item-321
+    - essentials.itemspawn.item-322
+    - essentials.itemspawn.item-323
+    - essentials.itemspawn.item-324
+    - essentials.itemspawn.item-325
+    - essentials.itemspawn.item-326
+    - essentials.itemspawn.item-328
+    - essentials.itemspawn.item-329
+    - essentials.itemspawn.item-330
+    - essentials.itemspawn.item-331
+    - essentials.itemspawn.item-333
+    - essentials.itemspawn.item-334
+    - essentials.itemspawn.item-335
+    - essentials.itemspawn.item-336
+    - essentials.itemspawn.item-337
+    - essentials.itemspawn.item-338
+    - essentials.itemspawn.item-339
+    - essentials.itemspawn.item-340
+    - essentials.itemspawn.item-341
+    - essentials.itemspawn.item-342
+    - essentials.itemspawn.item-343
+    - essentials.itemspawn.item-344
+    - essentials.itemspawn.item-345
+    - essentials.itemspawn.item-346
+    - essentials.itemspawn.item-347
+    - essentials.itemspawn.item-348
+    - essentials.itemspawn.item-349
+    - essentials.itemspawn.item-350
+    - essentials.itemspawn.item-351
+    - essentials.itemspawn.item-352
+    - essentials.itemspawn.item-353
+    - essentials.itemspawn.item-354
+    - essentials.itemspawn.item-355
+    - essentials.itemspawn.item-356
+    - essentials.itemspawn.item-357
+    - essentials.itemspawn.item-358
+    - essentials.itemspawn.item-359
+    - essentials.itemspawn.item-360
+    - essentials.itemspawn.item-361
+    - essentials.itemspawn.item-362
+    - essentials.itemspawn.item-363
+    - essentials.itemspawn.item-364
+    - essentials.itemspawn.item-365
+    - essentials.itemspawn.item-366
+    - essentials.itemspawn.item-367
+    - essentials.itemspawn.item-370
+    - essentials.itemspawn.item-371
+    - essentials.itemspawn.item-372
+    - essentials.itemspawn.item-375
+    - essentials.itemspawn.item-375
+    - essentials.itemspawn.item-377
+    - essentials.itemspawn.item-378
+    - essentials.itemspawn.item-379
+    - essentials.itemspawn.item-380
+    - essentials.itemspawn.item-382
+    - essentials.itemspawn.item-386
+    - essentials.itemspawn.item-387
+    - essentials.itemspawn.item-389
+    - essentials.itemspawn.item-390
+    - essentials.itemspawn.item-391
+    - essentials.itemspawn.item-392
+    - essentials.itemspawn.item-393
+    - essentials.itemspawn.item-394
+    - essentials.itemspawn.item-395
+    - essentials.itemspawn.item-396
+    - essentials.itemspawn.item-397
+    - essentials.itemspawn.item-390
+    - essentials.itemspawn.item-400
+    - essentials.itemspawn.item-403
+    - essentials.itemspawn.item-404
+    - essentials.itemspawn.item-408
+    - essentials.itemspawn.item-417
+    - essentials.itemspawn.item-418
+    - essentials.itemspawn.item-420
+    - essentials.itemspawn.item-421
+    - essentials.itemspawn.item-422
+    - essentials.itemspawn.item-2256
+    - essentials.itemspawn.item-2257
+    - essentials.itemspawn.item-2258
+    - essentials.itemspawn.item-2259
+    - essentials.itemspawn.item-2260
+    - essentials.itemspawn.item-2261
+    - essentials.itemspawn.item-2262
+    - essentials.itemspawn.item-2263
+    - essentials.itemspawn.item-2264
+    - essentials.itemspawn.item-2265
+    - essentials.itemspawn.item-2266
+    - essentials.itemspawn.item-2267

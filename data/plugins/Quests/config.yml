@@ -1,0 +1,21 @@
+language: en
+allow-command-questing: true
+allow-command-quests-with-npcs: false
+show-requirements: true
+allow-quitting: true
+debug-mode: false
+generate-files-on-join: true
+kill-delay: 600
+accept-timeout: 20
+snoop: true
+show-npc-effects: true
+npc-effect: note
+max-party-size: 0
+party-invite-timeout: 30
+broadcast-party-creation: true
+quester-blacklist:
+- SomeGuy12345
+- somePrefix*
+- '*someSuffix'
+- '*someRegex*'
+ignore-locked-quests: false

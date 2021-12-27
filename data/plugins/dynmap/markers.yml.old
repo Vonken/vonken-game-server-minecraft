@@ -1,0 +1,40 @@
+icons:
+    signshop_icon_555:
+        label: SignShop
+sets:
+    markers:
+        circles: {
+            }
+        hide: false
+        markers:
+            marker_1:
+                icon: default
+                markup: false
+                label: SPAWN
+                z: 256.0
+                world: Destiny
+                y: 64.0
+                x: 145.0
+        layerprio: 0
+        areas: {
+            }
+        deficon: default
+        lines: {
+            }
+        label: Markers
+    offline_players:
+        circles: {
+            }
+        hide: true
+        markers: {
+            }
+        layerprio: 0
+        areas: {
+            }
+        deficon: default
+        lines: {
+            }
+        label: Offline
+        minzoom: 0
+playersets: {
+    }

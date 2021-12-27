@@ -1,0 +1,120 @@
+FTell92:
+  from:
+    world: Destiny
+    x: 271.42750000953674
+    y: 63.69999998807907
+    z: 208.5
+  to:
+    name: GardenIsland
+    x: -748.3812592882883
+    y: 65.0
+    z: -762.4919232785653
+    world: Destiny
+Fisnik:
+  from:
+    world: Destiny
+    x: 271.42750000953674
+    y: 63.69999998807907
+    z: 208.5
+  to:
+    name: Farland
+    x: -1931.3954825322437
+    y: 77.0
+    z: -1816.2226552090797
+    world: Destiny
+MTell96:
+  from:
+    world: Destiny
+    x: 277.29908430342084
+    y: 62.54999998211861
+    z: 208.5
+  to:
+    name: GardenIsland
+    x: -748.3812592882883
+    y: 65.0
+    z: -762.4919232785653
+    world: Destiny
+Alduin:
+  from:
+    world: Destiny
+    x: 271.5
+    y: 63.69999998807907
+    z: 208.5
+  to:
+    name: Alduin
+    x: -1199.5
+    y: 63.69999998807907
+    z: -459.5887080203968
+    world: Destiny
+Paula:
+  from:
+    world: Destiny
+    x: 271.7926158720659
+    y: 63.69999998807907
+    z: 208.5
+  to:
+    name: MIsland
+    world: Destiny
+    x: -1086.3163550834286
+    y: 64.0
+    z: -864.4701467821881
+hubixswe:
+  from:
+    world: Destiny
+    x: 271.5
+    y: 63.69999998807907
+    z: 208.5
+  to:
+    name: Pulland
+    x: -1372.574912996479
+    y: 64.0
+    z: -816.9100445557498
+    world: Destiny
+Partykillen123:
+  from:
+    world: Destiny
+    x: 271.5
+    y: 63.69999998807907
+    z: 208.5
+  to:
+    name: Pulland
+    world: Destiny
+    x: -1372.574912996479
+    y: 64.0
+    z: -816.9100445557498
+Jeton:
+  from:
+    world: Destiny
+    x: -1931.5
+    y: 76.69999998807907
+    z: -1816.5
+  to:
+    name: Alduin
+    x: -1199.5
+    y: 63.69999998807907
+    z: -459.5887080203968
+    world: Destiny
+D_EviL:
+  from:
+    world: Destiny
+    x: 271.49000000953674
+    y: 63.69999998807907
+    z: 208.5
+  to:
+    name: GardenIsland
+    world: Destiny
+    x: -748.3812592882883
+    y: 65.0
+    z: -762.4919232785653
+97miha20:
+  from:
+    world: Destiny
+    x: 271.63655038983416
+    y: 63.69999998807907
+    z: 208.5
+  to:
+    name: MIsland
+    world: Destiny
+    x: -1086.3163550834286
+    y: 64.0
+    z: -864.4701467821881

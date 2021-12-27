@@ -1,0 +1,5 @@
+'#': BitChat config, makes sure it is correct!
+user: root
+password: Bananer1234
+database: minecraft
+server: 127.0.0.1

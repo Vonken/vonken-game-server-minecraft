@@ -1,0 +1,20 @@
+timestamps:
+  login: 1403899103286
+  lastteleport: 1403900011782
+  logout: 1403900024509
+ipAddress: 86.30.243.187
+lastlocation:
+  world: Destiny
+  x: 701.9997235909295
+  y: 63.0
+  z: 367.31316083907535
+  yaw: 334.9499
+  pitch: 29.399946
+afk: false
+logoutlocation:
+  world: Destiny
+  x: 136.18855342300768
+  y: 63.0
+  z: 282.03223213088404
+  yaw: -231.45013
+  pitch: -1.6499947

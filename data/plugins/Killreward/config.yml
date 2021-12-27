@@ -1,0 +1,17 @@
+Money-Enabled: true
+TakeMoneyFromKilled: true
+MoneyAmount: 250
+RandomAmoutMoney: true
+RandomMoneyLowestAmount: 0
+RandomMoneyMaxAmount: 250
+Xp-Enabled: true
+XpAmount: 1
+LevelUpMessage: '&lYou leveled up!'
+TakeMoneyMessage: '&lYou were taken %amount money, when you were killed by %killer!'
+YouWereNotTakenAnyMoneyMessage: '&lYou dont have so much money, so %killer didnt take
+  any.'
+GivenMoneyMessage: '&lYou were given %amount money for killing %killed !'
+KilledPlayerDidntHaveMoneyMessage: '&lYou didnt get any money because %killed didnt
+  have any!'
+CooldownMessage: '&lSorry, but you need to wait longer between your kills to get rewarded!'
+RewardCooldown: 0

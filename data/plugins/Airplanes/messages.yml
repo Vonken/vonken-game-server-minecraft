@@ -1,0 +1,15 @@
+commands:
+  permission: '&cYou dont have permissions to perform this command'
+  created: '&aSuccessfully created the airport {name}!'
+  removed: '&aSuccessfully removed the airport {name}!'
+  teleported: '&aSuccessfully teleported to airport {name}!'
+  cant find airport: '&cCant find aiport {name}!'
+pilot:
+  exited airplane: '&aWe are now landing, hope you enjoyed your flight!'
+  cant travel: '&cYou cant pilot airplanes!'
+  lost target: '&cAirplane has lost airport! Did you write wrong?'
+  wrong world: '&cYou cant travel to other worlds!'
+  no airplane: '&cYou cant travel without an airplane!'
+  start: '&aStarting machines... &cContinue along the railroad tracks!'
+  disallowed weapon: '&cYou dont have permission to use this weapon!'
+  sinking: '&cMayday, mayday, we are sinking!'

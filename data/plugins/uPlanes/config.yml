@@ -1,0 +1,23 @@
+# xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx #	
+general:
+  logger:
+    colour: true
+  currencySign: $
+  planes:
+    price: 1000.0
+    heightLimit: 256.0
+    defaultHealth: 30.0
+    maxHealth: 100.0
+    punchDamage: 5.0
+    perms: true
+    flyPerm: uplanes.fly
+    safeExit: true
+    autopilot: true
+  shop:
+    enable: true
+colorScheme:
+  success: '&a'
+  error: '&c'
+  info: '&e'
+  title: '&9'
+  tp: '&5'

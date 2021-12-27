@@ -1,0 +1,28 @@
+general:
+  buy:
+    notEnoughMoney: You cannot afford that item! You only have %balance%!
+    success: Successfully bought %item% for %price%, you now have %balance%!
+  cmd:
+    destinations:
+      set: Successfully set destination to where you're standing!
+      del: Successfully deleted destination!
+      notInPlane: Cannot engague autopilot when not in a plane!
+      go: Destination set! Lets go!
+      arrive: You have arrived at your destination!
+      invalid: That destination is doesn't exist! Do /destinations for a list.
+      wrongWorld: That destination is not in this dimension!
+      cancel: Disabled Autopilot
+  info:
+    msg: uPlanes %version%, by storm345, is working!
+  disabled:
+    msg: Feature disabled
+  playersOnly: Players only!
+  damage:
+    msg: '&c-%damage%&6 (%remainder%) - [&b%cause%&6]'
+  upgrade:
+    msg: '&a+%amount% &e%stat%. Value: %value%'
+  spawn:
+    msg: Given you a plane!
+  heightLimit: You may not fly above this height!
+  noExit:
+    msg: You may only exit in a clear area!

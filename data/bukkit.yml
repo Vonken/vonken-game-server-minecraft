@@ -1,0 +1,44 @@
+# This is the main configuration file for Bukkit.
+# As you can see, there's actually not that much to configure without any plugins.
+# For a reference for any variable inside this file, check out the bukkit wiki at
+# http://wiki.bukkit.org/Bukkit.yml
+settings:
+  allow-end: true
+  warn-on-overload: false
+  permissions-file: permissions.yml
+  update-folder: Updates
+  ping-packet-limit: 100
+  use-exact-login-location: false
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: Server closed
+spawn-limits:
+  monsters: 100
+  animals: 80
+  water-animals: 10
+  ambient: 15
+chunk-gc:
+  period-in-ticks: 600
+  load-threshold: 0
+ticks-per:
+  animal-spawns: 100
+  monster-spawns: 2
+  autosave: 0
+auto-updater:
+  enabled: false
+  on-broken:
+  - warn-console
+  on-update:
+  - warn-console
+  preferred-channel: beta
+  host: dl.bukkit.org
+  suggest-channels: false
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
+aliases: now-in-commands.yml

@@ -1,0 +1,9 @@
+MySQLServer: localhost
+MySQLPort: 3306
+MySQLUsername: root
+MySQLPassword: Bananer1234
+MySQLDatabase: minecraft
+MySQLTable: usersonline
+showDebug: false
+op_only_resync: false
+track_only_allowed_players: false

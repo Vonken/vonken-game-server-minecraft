@@ -1,0 +1,25 @@
+name: WMD
+maxSize: 20
+minSize: 4
+allowedBlocks: 
+    - 156
+    - 138
+    - 57
+    - 155
+
+forbiddenBlocks:
+    - 7
+
+canCruise: true
+cruiseSkipBlocks: 0
+canFly: false
+minHeightLimit: 65
+maxHeightLimit: 65
+collisionExplosion: 100.0
+speed: 5.0
+tryNudge: false
+sinkPercent: 99.0
+flyblocks:
+    138:
+        - 20.0
+        - 100.0

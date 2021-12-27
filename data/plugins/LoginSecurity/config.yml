@@ -1,0 +1,23 @@
+settings:
+  password-required: true
+  encryption: MD5
+  encoder: UTF-8
+  PHP_VERSION: 4
+  messager-api: true
+  blindness: true
+  fake-location: true
+  session:
+    use: true
+    timeout (sec): 60
+  timeout:
+    use: true
+    timeout (sec): 60
+  table prefix: ls_
+MySQL:
+  use: true
+  host: localhost
+  port: 3306
+  database: minecraft
+  username: root
+  password: Bananer1234
+  prefix: ''
