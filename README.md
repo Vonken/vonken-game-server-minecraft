@@ -1,17 +1,36 @@
-# Minecraft #
-1. Download latest spigot.jar
-2. Rename to spigot.jar
-3. Add to the folder "data"
+# Minecraft Server #
+1. Install Docker Desktop.
+2. Enable WSL in the Docker Desktop settings.
+3. Execute command `docker build -t vonken-minecraft-spigot .` from command prompt.
+4. Start a new container from new image.
 
-
-**Run docker**
-docker run -d -v ./server-volume:/server -p 25565:25565 --name="vonken-minecraft-spigot-prod" vonken-minecraft-spigot
-
-**Build**
-docker build -t vonken-minecraft-spigot .
-
-
-´docker build -t vonken-minecraft-spigot .´
-
-
+## Connect to server console ##
 https://github.com/Tiiffi/mcrcon/releases/latest
+
+## Copy files to docker container example ##
+```
+docker cp "A:\VirtualMachines\Minecraft\data\plugins\Dynmap-3.3-beta-4-spigot.jar" minecraft:"/home/minecraft/plugins"
+```
+
+
+## Notes ##
+rm -r data\plugins\dynmap\web\tiles/*
+
+## Disabled plugins ##
+ProtocolLib
+WorldGuard
+Movecraft 
+HelthBar
+Citizens
+OnlinePlayersSQL
+uCars
+uPlanes
+Craftbook
+Airplanes
+Quests
+AntiCreeper3 
+LoginSecurity
+Killreward
+Essentials
+Marriage
+Vault
