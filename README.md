@@ -1,4 +1,4 @@
-#Minecraft#
+# Minecraft #
 1. Download latest spigot.jar
 2. Rename to spigot.jar
 3. Add to the folder "data"
