@@ -14,4 +14,4 @@ docker build -t vonken-minecraft-spigot .
 ´docker build -t vonken-minecraft-spigot .´
 
 
-https://github.com/Tiiffi/mcrcon/releases/tag/v0.7.2
+https://github.com/Tiiffi/mcrcon/releases/latest
